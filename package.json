@@ -140,7 +140,7 @@
     "unplugin-vue-router": "catalog:frontend",
     "unzipper": "catalog:prod",
     "vite-plugin-vue-layouts": "catalog:frontend",
-    "vite-plus": "^0.1.16",
+    "vite-plus": "0.1.20-alpha.4",
     "vite-ssg": "catalog:frontend",
     "vscode-ext-gen": "catalog:dev",
     "vscode-fs": "catalog:prod",
