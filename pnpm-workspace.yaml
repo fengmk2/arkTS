@@ -8,8 +8,8 @@ catalog:
 catalogs:
   build:
     tsdown: 0.16.5
-    vite-plus: ^0.1.18
-    vite: npm:@voidzero-dev/vite-plus-core@^0.1.18
+    vite-plus: 0.1.21-alpha.7
+    vite: npm:@voidzero-dev/vite-plus-core@0.1.21-alpha.7
   dev:
     baseline-browser-mapping: latest
     fast-glob: ^3.3.3
@@ -165,3 +165,7 @@ publicHoistPattern:
   - '@napi-rs/wasm-runtime'
 
 recursiveInstall: true
+
+minimumReleaseAgeExclude:
+  - vite-plus
+  - '@voidzero-dev/*'
